@@ -1,0 +1,15 @@
+.cache
+.dotnet
+.landscape
+.npm
+.python_history
+.ssh
+.vscode-server
+.wget-hsts
+.bash_history
+.bash_logout
+.bashrc
+.motd_shown
+.profile
+.sudo_as_admin_successful
+
