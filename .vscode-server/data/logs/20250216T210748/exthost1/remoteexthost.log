@@ -1,0 +1,112 @@
+2025-02-16 21:08:41.179 [info] Extension host with pid 581 started
+2025-02-16 21:08:41.299 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-16 21:08:41.300 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-02-16 21:08:41.304 [info] Lock '/home/edwin/.vscode-server/data/User/workspaceStorage/b2e7f4e7cbb94089ec531e6a3e71f45b/vscode.lock': Lock acquired.
+2025-02-16 21:08:42.302 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-16 21:08:42.505 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-16 21:08:42.506 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-16 21:08:42.852 [info] Eager extensions activated
+2025-02-16 21:08:42.853 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-16 21:08:42.854 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-16 21:09:26.141 [error] [vscode.emmet] provider FAILED
+2025-02-16 21:09:26.142 [error] Error: Unable to find matching pair for < at char 24
+	at r.error (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:22471)
+	at p (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:21701)
+	at u (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:14683)
+	at p (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:14817)
+	at /home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:15429
+	at v (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:15535)
+	at E (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:16481)
+	at I (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:16891)
+	at t.getRootNode (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:211771)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:189574)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:188352)
+	at FC.provideCompletionItems (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:135:141110)
+	at file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:135:163944
+	at Gt.s (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:135:155231)
+	at Gt.$provideCompletionItems (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:135:163932)
+	at Uy.S (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:158274)
+	at Uy.Q (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:158054)
+	at Uy.M (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:157105)
+	at Uy.L (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:156248)
+	at Ah.value (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:155045)
+	at D.B (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at Xn.fire (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at Ah.value (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:190:13296)
+	at D.B (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at Xn.fire (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at Gm.A (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:12574)
+	at Ah.value (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:10994)
+	at D.B (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at m6.acceptChunk (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:7941)
+	at Ah.value (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:7227)
+	at D.B (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at BA.z (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:21254)
+	at BA.acceptFrame (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:21060)
+	at jA.n (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:19588)
+	at file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:16820
+	at Socket.t (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:14761)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:561:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+	at Readable.push (node:internal/streams/readable:392:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-02-16 21:09:26.563 [error] [vscode.emmet] provider FAILED
+2025-02-16 21:09:26.563 [error] Error: Unable to find matching pair for < at char 24
+	at r.error (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:22471)
+	at p (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:21701)
+	at u (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:14683)
+	at p (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:14817)
+	at /home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:15429
+	at v (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:15535)
+	at E (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:16481)
+	at I (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:16891)
+	at t.getRootNode (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:211771)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:189574)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/emmet/dist/node/emmetNodeMain.js:1:188352)
+	at FC.provideCompletionItems (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:135:141110)
+	at file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:135:163944
+	at Gt.s (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:135:155231)
+	at Gt.$provideCompletionItems (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:135:163932)
+	at Uy.S (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:158274)
+	at Uy.Q (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:158054)
+	at Uy.M (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:157105)
+	at Uy.L (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:156248)
+	at Ah.value (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:155045)
+	at D.B (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at Xn.fire (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at Ah.value (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:190:13296)
+	at D.B (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at Xn.fire (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at Gm.A (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:12574)
+	at Ah.value (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:10994)
+	at D.B (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at m6.acceptChunk (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:7941)
+	at Ah.value (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:7227)
+	at D.B (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at BA.z (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:21254)
+	at BA.acceptFrame (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:21060)
+	at jA.n (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:19588)
+	at file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:16820
+	at Socket.t (file:///home/edwin/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:29:14761)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:561:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+	at Readable.push (node:internal/streams/readable:392:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-02-16 21:14:20.085 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2025-02-16 21:14:48.017 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-02-16 21:15:09.494 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-02-16 21:15:09.495 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-02-16 21:15:09.495 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-02-16 21:16:30.069 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-16 21:16:41.012 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-16 21:16:42.917 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
